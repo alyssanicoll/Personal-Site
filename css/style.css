@@ -1,0 +1,173 @@
+/* =====================
+Turtleguyy v1.0 (CSS3)
+Author: Alyssa Nicoll
+===================== */
+
+*{margin:0;}
+*{padding:0;}
+
+
+/*======
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+  //prepend span tag to H1
+  $("h1").prepend("<span></span>");
+	
+});
+</script>
+
+header #topdiv h1{
+	font: bold 330%/100%;
+	font-size:25px;
+	text-align:center;
+	color:white;
+	position:relative;
+
+h1 span{
+	background: url(gradient.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 31px;
+
+=========*/
+
+
+
+
+
+/* ========== STRUCTURE ========== */
+html {
+	height: 100%;
+}
+body {
+	margin:0; 
+	background:#ddd;
+	font-family: "trajan-pro-1","trajan-pro-2";
+}
+#nav{
+margin:0 auto;
+margin-left:20px;
+}
+a {
+	text-decoration:none;
+	color:black;
+
+}
+#current {
+	font-weight:bold;
+}
+
+/* ========== HEADER ========== */
+header #topdiv{
+background:#2d2d2d;
+	background:-webkit-gradient(linear,50% 0%,50% 100%,from(#8c8c8c),to(#2d2d2d));
+	height:40px;
+	border-bottom:2px solid #2d2d2d;
+	padding:20px;
+}
+header #bottomdiv{
+	background:#6fbf4c;
+	background:-webkit-gradient(linear,50% 0%,50% 100%,from(#72c154),to(#6fbf4c));
+	height:25px;
+	border-bottom:2px solid #6fbf4c;
+}
+header #topdiv h1{
+	font-size:30px;
+	text-align:center;
+	color:#2d2d2d;
+	text-shadow:0px -1px 5px rgba(100,100,100,5),
+	-1px 0px 5px rgba(100,100,100,5),
+	1px 0px 5px rgba(100,100,100,5),
+	1px 0px 5px rgba(100,100,100,5);
+	}
+	header #bottomdiv h2{
+	font-size:14px;
+	text-align:center;
+	color:#dddddd;
+	line-height:30px;
+	text-shadow:-1px -1px -1px rgba( 120,120,120,.5 );
+	}
+/* ========== CONTENT ========== */
+#logo {
+	right: 5px;
+	bottom: 5px;
+	position: fixed;
+}
+form {
+	width: 850px;
+	height: 450px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+textarea {
+	width: 100%;
+	height: 100%;
+	padding: 4px;
+	border-color: white;
+	border-width: 5px;
+	-moz-box-shadow: #ddd 5px 5px 10px inset;
+	-webkit-box-shadow: #ddd 5px 5px 5px inset;
+	font-size: 16px;
+}
+textarea:focus {
+	outline: none;
+	padding:5px;
+	margin:50px;
+}
+ul {
+	list-style: none;
+	margin-top:10px;
+	margin-left:20px;
+	overflow:hidden;
+}
+ul li {
+	font-size:13px;
+	float: left;
+	margin-right: 10px;
+}
+table{
+	border:3px solid #2e2e2e;
+	padding:20px;
+	margin:5px auto;
+	width:700px;
+	height:auto;
+	background:#fff;
+	-webkit-border-radius:5px;
+	-moz-border-radius:2px;
+	font-size:12px;
+}	
+table th, table tr{
+	border:1px solid #2e2e2e;
+	padding:5px;
+	margin:5px auto;
+	width:500px;
+	height:auto;
+	background:#fff;
+	-webkit-box-shadow:0px 0px 15px #ddd;
+	-webkit-border-radius:5px;
+}
+table td{
+	border:.2px solid #2e2e2e;
+	padding:5px;
+	margin:5px auto;
+	width:500px;
+	height:auto;
+	background:#fff;
+	-webkit-box-shadow:0px 0px 15px #ddd;
+	-moz-box-shadow:0px 0px 15px #ddd;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+p{
+font-size:16px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  width: 850px;
+  margin: 0 auto;
+}
